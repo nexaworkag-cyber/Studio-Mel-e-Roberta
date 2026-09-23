@@ -63,7 +63,7 @@ Com um subtítulo que responde o quê e onde:
 ## Mensagem de abordagem (Instagram DM)
 
 > Oi, Mel e Roberta! Tudo bem? 🤎
-> Sou a <seu nome>, faço páginas para negócios de beleza. Entrei no site de vocês pelo link da bio e amei a identidade visual!
+> Aqui é <seu nome>, faço páginas para negócios de beleza. Entrei no site de vocês pelo link da bio e amei a identidade visual!
 > Notei uma coisa que pode estar fazendo vocês perderem clientes: no teste do Google (PageSpeed), a imagem principal leva uns 20 segundos pra aparecer no celular. A maioria das pessoas desiste antes de 3 segundos, e quem vem do Instagram está justamente no celular.
 > Dá pra resolver mantendo a mesma cara do site. Posso mandar um resumo do que encontrei? É sem compromisso 😊
 
