@@ -75,3 +75,27 @@ Follow-up (se responderem): mandar os 3 pontos principais (velocidade, botão de
 - **"Por que não só otimizar?":** dá para otimizar (comprimir imagens, cache). Mas Elementor + ElementsKit continuam pesados; uma página enxuta fica rápida de vez e custa menos para manter. Ter as duas opções evita perder o lead.
 - **Prova:** mostrar o print do PageSpeed no celular (nota 59, LCP 21,3 s) e, depois, o da página nova.
 - Testar de novo sem os parâmetros UTM (`https://studiomeleroberta.com/`) antes de mandar o relatório.
+
+## Página nova (proposta): `site/index.html`
+
+Arquivo único (HTML + CSS + JS embutidos), sem WordPress/Elementor. Lighthouse local (2026-09-23):
+
+| | Site atual (mobile) | Página nova (mobile) |
+|---|---|---|
+| Performance | 59 | **100** |
+| Acessibilidade | 89 | **100** |
+| Boas práticas | 100 | 96* |
+| SEO | 100 | **100** |
+| LCP | 21,3 s | **1,5 s** |
+| Peso | 5,8 MB | **39 KB** (sem fotos) |
+
+\* Os únicos avisos são do ambiente de teste: a fonte do Google é bloqueada aqui e o servidor local não comprime os arquivos. Na hospedagem real, esses avisos somem.
+
+**Recursos interativos:** abas de serviços, botão "Agendar" em cada serviço, montador de agendamento (serviços + dia + período + nome) que gera a mensagem pronta no WhatsApp, galeria com ampliação, FAQ, mapa que só carrega ao clicar, WhatsApp flutuante, animações ao rolar (respeitam "reduzir movimento").
+
+**Antes de entregar, trocar o que está marcado com `EDITAR` no código:**
+- serviços, descrições e preços reais;
+- texto "O estúdio";
+- respostas do FAQ;
+- @ do Instagram, endereço e horário;
+- fotos (WebP, até ~120 KB cada; a do topo com `fetchpriority="high"`).
